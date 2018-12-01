@@ -177,24 +177,21 @@ ul {
   border-color: rgba(89, 171, 227, 1);
   color: white;
 }
-nav {
+.navbar {
   background-color: rgba(224, 224, 224, 0.9);
   border-radius: 0px;
   border-color: white;
   min-height: 90px;
-  position: sticky;
-  top: 0;﻿
-  transition: .3s;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
 }
 .nav-link {
+  color: black;
+  font-size: 17px;
+  font-family: "futura", sans-serif;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 40px;
+}
+.nav-linkmain {
   color: black;
   font-size: 17px;
   font-family: "futura", sans-serif;
