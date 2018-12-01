@@ -185,18 +185,16 @@ ul {
 }
 .nav-link {
   color: black;
-  font-size: 19px;
+  font-size: 17px;
   font-family: "futura", sans-serif;
-  background-color: white;
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 40px;
 }
 .nav-linkmain {
   color: black;
-  font-size: 19px;
+  font-size: 17px;
   font-family: "futura", sans-serif;
-  background-color: rgba(250, 250, 250, 0.5);
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 40px;

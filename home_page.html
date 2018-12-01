@@ -3,11 +3,11 @@
 <head>
   <title>Yule Map</title>
   <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/yulemap.css">
+  <link rel="stylesheet" type="text/css" href="css/yulemap_home.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky navbar-expand-lg navbar-light bg-light">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -21,7 +21,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a class="nav-linkmain" href="about.html">About YuleMap</a></li>
+        <li><a class="nav-link" href="about.html">About YuleMap</a></li>
         <li><a class="nav-link" href="food_drink.html">Food and Drink</a></li>
         <li><a class="nav-link" href="ice_rinks.html">Ice Rinks</a></li>
         <li><a class="nav-link" href="winter_markets.html">Markets</a></li>
@@ -29,6 +29,7 @@
       </ul>
     </div>
   </nav>
+    <div class="main">
     <div class="mobile">
       <div class="container">
         <div class="row">
@@ -39,7 +40,13 @@
         </div>
       </div>
     </div>
-    <div class="landscape">
+      <div class="landscape">
+        <section class="jumbotron">
+          <h3> Welcome to <span style="color: #0E6655">Yule</span><span style="color: #A93226">Map</span> </h3>
+          <div class=intro> <b> YuleMap is here to take the headache out of organising festive plans.</b> Use the interactive map below to find the best entertainment in London this Christmas, all within walking distance of the tube. YuleMap can help you streamline your plans by allowing you to organise them around an area or tube line of your choice. </div>
+        </section>
+      <section>
+        <div id="info-box"></div>
       <?xml version="1.0" encoding="utf-8"?>
       <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
       <svg version="1.1" class="map" id="tube-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -927,7 +934,7 @@
       				c0.7-0.1,1.3-0.2,1.9,0.3c0.2,0.4,0.2,0.7,0,1.1c-1.8,1-3.8,1.3-5.7,2c-0.2,0-0.3,0-0.5,0c-1.8,0-3.7,0-5.5,0
       				c-15.1-2.1-19.7-20.1-12.1-31.1c6.1-8.8,18.5-11.4,26.8-6.8C412.6,442.7,416.2,447.1,417,453.5z"/>
       <a xlink:href="ice_rinks.html#target-canary">
-      			<path class="st19" id="canary" d="M637.6,338.5c1.3-1,2.6-2.1,3.9-3.1c4.6,2.2,9.3,1.5,14.1,0.8c1.6,0.1,2.5,1.1,3.3,2.2
+      			<path class="st19" id="canary" data-info="<div><b>Canary Wharf</b></div><div><br><b>Activity:</b> Ice skating</div><div><b>Tube Station:</b> Canary Wharf</div><div><b>Distance from Tube:</b> 3 minutes</div>" d="M637.6,338.5c1.3-1,2.6-2.1,3.9-3.1c4.6,2.2,9.3,1.5,14.1,0.8c1.6,0.1,2.5,1.1,3.3,2.2
       				c1.3,2,1.4,4.1,0.9,6.4c-1,4.9-2.4,9.8-3.4,14.7c-0.4,1.9-1.4,3.3-2.4,4.8c-0.4,0.6-0.9,1.1-1.4,1.6c-5.4,4-11.6,1.6-12.8-4.9
       				c-1-5.3-2.5-10.5-3.6-15.8c-0.4-1.9-0.7-3.8,0.2-5.6C636.8,339.2,637.2,338.9,637.6,338.5z"/>
       </a>
@@ -1570,7 +1577,7 @@
       				c12.3,2.1,23.8-0.3,34.6-6.4c9.5-5.4,16.4-13.1,21.2-22.9c0.2-0.5,0.7-1,0-1.5c-0.4-0.1-0.9-0.1-1.3-0.1c-0.5,0-0.9,0-1.4,0
       				c-0.4,0-0.7-0.1-1-0.3C781,495.6,780.9,495.4,780.9,495.2z"/>
       <a xlink:href="winter_markets#target-wintertime.html">
-      			<path class="st152" id="wintertime" d="M414.1,465.9c-3.2-0.1-4.4,3-6.6,4.4c-1.5,1-3.1,2.2-3.6,4.2c-1.6,0-3.1,0.6-4.7,0.2
+      			<path class="st152" id="wintertime" data-info="<div><b>Winterville</b></div><div><br><b>Activity:</b> Christmas market</div><div><b>Tube Station:</b> Clapham Common</div><div><b>Distance from Tube:</b> 6 minutes</div>" d="M414.1,465.9c-3.2-0.1-4.4,3-6.6,4.4c-1.5,1-3.1,2.2-3.6,4.2c-1.6,0-3.1,0.6-4.7,0.2
       				c-1.8-0.4-3-1.3-3.8-2.9c-2.9-5.2-5.8-10.5-8.7-15.7c-2.3-4.1-2-7.5,1-10.2c2.5-2.3,6.5-2.3,9.9,0c4.4,2.9,8.8,6,13.3,8.9
       				c3,1.9,4.6,4.5,4.1,8.1l0,0c-0.5,0.4-0.1,1.1-0.5,1.5c-0.1,0.1-0.2,0.2-0.1,0.4C414.3,465.2,414.3,465.6,414.1,465.9z"/>
       </a>
@@ -2063,8 +2070,8 @@
       				c-3.3-2.9-7.2-2.5-9.7,0.5c-1.4,1.7-2,3.6-1.3,5.8c2.1,6.1,4.8,12,7.2,18c0.7,1.9,2.8,2.2,3.8,3.7c-3,0.8-6.1,0.8-9.1,0.1
       				c-0.8-0.5-1.5-1-2.3-1.4c-6.7-3.5-10.1-9.3-10.1-16.5c0-7.7,3.7-13.8,10.6-17.3c7.2-3.7,14.3-3,20.9,1.7
       				C759.7,129.6,761.4,134.4,762.5,139.5z"/>
-          <a xlink:href="food_drink.html">
-      			<path class="st233" id="stratford" d="M745.1,159.9c-2.6-0.6-4-2.3-5-4.7c-2-5.1-4.1-10.2-6.2-15.2c-1.6-4.1-0.9-7.3,2.2-9.5
+          <a xlink:href="food_drink.html#target-sliders">
+      			<path class="st233" id="stratford" data-info="<div><b>Roof East</b></div><div><br><b>Activity:</b> Food and drink </div><div><b>Tube Station:</b> Stratford</div><div><b>Distance from Tube:</b> 3 minutes</div>"d="M745.1,159.9c-2.6-0.6-4-2.3-5-4.7c-2-5.1-4.1-10.2-6.2-15.2c-1.6-4.1-0.9-7.3,2.2-9.5
       				c2.7-2,6.5-1.5,9.6,1.2c3.8,3.4,7.6,6.8,11.4,10c1.8,1.5,3.2,3.1,3.8,5.4c0,2-0.8,3.7-1.6,5.4c-1.6-0.1-2.9,0.7-4,1.6
       				c-2.3,1.9-5.3,3-7,5.7C747.3,159.9,746.2,159.9,745.1,159.9z"/>
           </a>
@@ -2347,7 +2354,7 @@
       				c0.6-3.1,1.3-6.2,2.1-9.3c1-4.2,2.3-8.3,1.4-12.7c1.7,0,2.7,1.5,4.1,1.9c0.3,0.7,0.8,1.2,1.5,1.5c5.1,5.4,6.4,11.7,4.1,18.7
       				c-2.3,6.7-7.1,10.8-13.8,12.6c-8.9,2.5-17.7-0.7-23-8c-4.4-6-5-16.7,1.1-22.5C317.7,340.6,317.8,340.3,318,340z"/>
       <a xlink:href="ice_rinks.html">
-      			<path class="st290" id="nat" d="M343.4,336.6c1.3,2.1,1.2,4.3,0.7,6.7c-1.2,5.5-2.9,10.9-3.7,16.5c-0.5,3.3-3.9,5.8-7.5,5.7
+      			<path class="st290" id="nat" data-info="<div><b>Natural History Museum</b></div><div><br><b>Activity:</b> Ice skating</div><div><b>Tube Station:</b> South Kensington</div><div><b>Distance from Tube:</b> 4 minutes</div>" d="M343.4,336.6c1.3,2.1,1.2,4.3,0.7,6.7c-1.2,5.5-2.9,10.9-3.7,16.5c-0.5,3.3-3.9,5.8-7.5,5.7
       				c-3.5,0-6.8-2.4-7.3-5.6c-0.9-5.7-2.6-11.1-3.7-16.7c-0.4-1.9-0.5-3.8,0.1-5.6c0.2-0.3,0.4-0.6,0.6-0.9c1.3-1,2.6-2,4-3
       				c4.7,2.1,9.5,1,14.4,0.9C341.8,335.2,342.6,335.9,343.4,336.6z"/>
       </a>
@@ -2533,7 +2540,7 @@
       				c-10.5,0-21,0-31.4,0c-0.8,0-1.6,0-2.4,0c0-0.2,0-0.3,0-0.5c12.1,0,24.1,0,36,0C444.3,346.7,443.9,345.6,444.1,344.5z"/>
       			<path class="st2" d="M396,417c-0.2-0.2-0.3-0.4-0.5-0.5C395.6,416.7,395.8,416.9,396,417z"/>
       <a xlink:href="winter_markets.html">
-      			<path class="st332" id="southbank" d="M461.5,387.5c-1.1,3.7-0.6,7.5-0.3,11.3c0.1,1.8-0.6,3.3-1,4.9c0-4.6,0-9.1,0-13.3c-0.9-1.1-1.5-1-2.2-0.4
+      			<path class="st332" id="southbank" data-info="<div><b>Southbank Market</b></div><div><br><b>Activity:</b> Christmas market</div><div><b>Tube Station:</b> Waterloo</div><div><b>Distance from Tube:</b> 8 minutes</div>" d="M461.5,387.5c-1.1,3.7-0.6,7.5-0.3,11.3c0.1,1.8-0.6,3.3-1,4.9c0-4.6,0-9.1,0-13.3c-0.9-1.1-1.5-1-2.2-0.4
       				c-0.2,0.3-0.5,0.4-0.8,0.5c-0.4,0.1-0.8,0.2-1.2,0.3c-0.3,0-0.6,0-0.9-0.3c-0.2,0-0.3-0.1-0.5-0.1c-0.2,0-0.4,0-0.6,0
       				c-0.4-0.5-1-0.4-1.5-0.4c-2.9-2.2-4.8-5-5.5-8.7c-0.9-4.6-2.1-9.2-3.2-13.8c-0.5-2-0.5-3.9,0.8-5.7c0.4-1.3,1.4-2.1,2.5-2.8
       				c0.7-0.4,1.2-0.9,2.1-0.7c1.3,1.1,2.9,1.5,4.6,1.4c3.4-0.2,6.7,0.4,10.1-0.5c3.1,1,4.3,3.3,4.4,6.5c-0.1,0.9-0.5,1.7-1,2.5
@@ -3144,7 +3151,7 @@
       			<path class="st454" d="M292.9,328.9c-0.1,0.2-0.2,0.4-0.4,0.6c0-0.2,0-0.3-0.1-0.5C292.6,328.9,292.8,328.9,292.9,328.9z"/>
       			<path class="st454" d="M292.5,331c0.1,0.2,0.3,0.4,0.4,0.6c-0.2,0-0.3,0-0.4-0.1C292.5,331.3,292.5,331.2,292.5,331z"/>
       <a xlink:href="ice_rinks.html#target-somerset">
-      			<path class="st455" id="somerset" d="M592.6,293.8c0.9,1.2,2.1,1.7,3.6,1.7c2.5-0.1,5-0.1,7.5,0c1.2,0,2.3-0.3,3.2-1c3.3,2.2,4.2,5.2,3.1,9.1
+      			<path class="st455" id="somerset" data-info="<div><b>Somerset House</b></div><div><br><b>Activity:</b> Ice skating</div><div><b>Tube Station:</b> Temple</div><div><b>Distance from Tube:</b> 4 minutes</div>" d="M592.6,293.8c0.9,1.2,2.1,1.7,3.6,1.7c2.5-0.1,5-0.1,7.5,0c1.2,0,2.3-0.3,3.2-1c3.3,2.2,4.2,5.2,3.1,9.1
       				c-0.9,3.1-1.4,6.3-2.1,9.4c0,2.5-0.1,4.9-1.8,7c-0.3,0.3-0.7,0.6-1,1c-0.5,2.9-3.3,5.1-6.6,5.1c-3.3,0-6.1-2.2-6.6-5.1
       				c-0.1-0.3-0.3-0.7-0.4-1c-0.9-1.7-1.4-3.5-1-5.5c0-0.6,0-1.1-0.4-1.5c-2-4.2-3-8.6-3.1-13.1C586.9,296.6,589.6,294,592.6,293.8z"
       				/>
@@ -3270,7 +3277,7 @@
       			<path class="st484" d="M514.5,355.1c-0.6,0.6-1.4,0.3-2.1,0.5c-0.1-0.1-0.3-0.1-0.4-0.2C512.8,354.7,513.7,355.1,514.5,355.1z"/>
       			<path class="st483" d="M514.5,353c0.4-0.5,1-0.5,1.5-0.5C515.6,353.1,515,353,514.5,353z"/>
       <a xlink:href="food_drink.html">
-      			<path class="st455" id="coppa" d="M495.6,341.5c0,0.3,0,0.7,0,1c1,1.8-0.3,3.5-0.4,5.2c0,0.2-0.1,0.5-0.1,0.7c0,0.2-0.1,0.5-0.2,0.7
+      			<path class="st455" id="coppa" data-info="<div><b>Coppa Club</b></div><div><br><b>Activity:</b> Food and drink </div><div><b>Tube Station:</b> Tower Hill </div><div><b>Distance from Tube:</b> 4 minutes</div>"d="M495.6,341.5c0,0.3,0,0.7,0,1c1,1.8-0.3,3.5-0.4,5.2c0,0.2-0.1,0.5-0.1,0.7c0,0.2-0.1,0.5-0.2,0.7
       				c-0.4,1.3-0.7,2.5-1,3.8c-0.3,0.9-0.4,1.9-1.2,2.6c-0.8,3.6-1.7,7.2-4.2,10c-1.3,1-2.8,1.6-4.5,2c-1.8-0.1-3.5-0.6-5-1.6
       				c-0.3-0.3-0.6-0.7-0.9-1c-1.6-0.6-1.8-2-2.1-3.4c-0.4-1.9-0.7-3.8-1.1-5.6c-0.2-1-0.5-2-0.7-2.9c-0.3-1.5-0.7-2.9-1.1-4.4
       				c-0.1-0.2-0.1-0.5-0.1-0.7c-0.2-1.8-1-3.5-1-5.3c0-0.4,0-0.8,0.1-1.2c1.2-3.8,2.9-5.5,5.7-5.6c0.9,1.2,2.1,1.7,3.6,1.7
@@ -3403,7 +3410,7 @@
       				C378.1,252,378,252,377.9,251.9z"/>
       			<path class="st507" d="M377.4,252.4c0.2-0.2,0.3-0.4,0.5-0.5c0,0,0.2,0.2,0.2,0.2c0.1,0.4-0.1,0.5-0.5,0.5L377.4,252.4z"/>
       <a xlink:href="shopping.html#target-oxford">
-      			<path class="st508" id="oxford" data-info="<div>State: Hawaii</div><div>Capital: Honolulu</div>" d="M392,223.7c0.9-0.2,1.8-0.5,2.7-0.7c1.7-1,3.3-0.2,4.6,0.7c5.5,3.8,10.8,8,15.8,12.4
+      			<path class="st508" id="oxford" data-info="<div><b>Oxford Street</b></div><div><br><b>Activity:</b> Shopping</div><div><b>Tube Station:</b> Oxford Circus</div><div><b>Distance from Tube:</b> 0 minutes</div>" d="M392,223.7c0.9-0.2,1.8-0.5,2.7-0.7c1.7-1,3.3-0.2,4.6,0.7c5.5,3.8,10.8,8,15.8,12.4
       				c1.8,1.6,3.1,3.7,1.8,6.4c-0.5,1.1-1,2.2-1.4,3.3c-4.2,2.4-7.5,5.8-11.3,8.6c-2.2,0.4-4.4,0.5-6.3-1c-1.6-1.4-2.4-3.4-3.2-5.3
       				c-2.2-4.8-4.7-9.4-6.6-14.3c-1-2.7-1.1-5.4,0.5-7.9C389.4,224.8,390.4,223.8,392,223.7z"/>
       </a>
@@ -3664,7 +3671,7 @@
       				c-0.5-0.9-1.4-1.4-2.3-1.8c-0.6-0.3-1.6-0.1-1.6-1.2c0.6-0.9,1.8-0.4,2.5-1.1c2.3,0.1,4.7-0.3,7,0.5c10.9,2.6,16.8,15.3,12.2,26
       				c-5.6,12.9-21.7,16.8-32.2,7.4C466.7,294.1,464.4,289.1,465.5,283z"/>
           <a xlink:href="shopping.html">
-            <path class="st556" id="covent" d="M481.5,265.1c2.9,0.4,4.6,2.2,5.8,4.8c2.3,4.8,4.8,9.5,7.2,14.2c1.2,2.4,1.9,4.8,0.7,7.4
+            <path class="st556" id="covent" data-info="<div><b>Covent Garden Market</b></div><div><br><b>Activity:</b> Shopping</div><div><b>Tube Station:</b> Covent Garden</div><div><b>Distance from Tube:</b> 2 minutes</div>" d="M481.5,265.1c2.9,0.4,4.6,2.2,5.8,4.8c2.3,4.8,4.8,9.5,7.2,14.2c1.2,2.4,1.9,4.8,0.7,7.4
       				c-1.9,4.1-6.9,5.4-10.8,2.6c-4.8-3.5-9.6-7.2-14.4-10.7c-2.2-1.6-3.1-3.8-3.1-6.4c0.4-1.1,0.7-2.3,1.1-3.4
       				c3.5-1.8,6.2-4.6,9.1-7.2c0.4-0.4,0.8-0.9,1.4-1C479.5,265.3,480.5,265.2,481.5,265.1z"/>
           </a>
@@ -3850,7 +3857,7 @@
       				c-0.4,0.8-0.2,1.8-1.3,2.2c-5.2-5.7-12.4-8.5-18.5-12.9c-2.9-2.1-6.1-1.9-8.3,0.1c-2.4,2.1-2.9,4.8-1.2,8.2
       				c3,5.8,6.6,11.2,10,16.7C350.3,298.1,352.6,297.8,354,299z"/>
       <a xlink:href="winter_markets.html#target-hyde">
-      			<path class="st556" id="hyde" d="M354,299c-3,0-5-1.5-6.5-4.1c-2.7-4.8-5.7-9.4-8.5-14.1c-3.2-5.4-1-10.8,4.6-11.6c1.8-0.2,3.4,0.3,5,1.2
+      			<path class="st556" id="hyde" data-info="<div><b>Hyde Park Winter Wonderland</b></div><div><br><b>Activity:</b> Christmas market</div><div><b>Tube Station:</b> Hyde Park Corner</div><div><b>Distance from Tube:</b> 9 minutes</div>" d="M354,299c-3,0-5-1.5-6.5-4.1c-2.7-4.8-5.7-9.4-8.5-14.1c-3.2-5.4-1-10.8,4.6-11.6c1.8-0.2,3.4,0.3,5,1.2
       				c4.8,3.1,9.7,6.1,14.5,9.2c1.7,1.1,3.2,2.4,3.9,4.4c0.7,0.7,0.6,1.5,0.6,2.3c-0.2,1.2-0.3,2.5-1.5,3.1c-4.2,2-7,5.4-9.6,9.1
       				C355.6,298.7,354.8,298.9,354,299z"/>
       </a>
@@ -3957,7 +3964,7 @@
       				c-0.8-0.2-1.6-0.3-2.2-0.9C457.1,209.5,457.3,208.2,458.5,207.1z"/>
       			<path class="st612" d="M456.9,204.6c-0.5,0.8-1,1.5-1.9,1.8c-0.1-0.5-0.3-1.1,0.1-1.6C455.6,204.3,456.3,204.5,456.9,204.6z"/>
       <a xlink:href="food_drink.html#target-dalloway">
-      			<path class="st233" id="dalloway" d="M454,216.5c0.3,0,0.5,0,0.8-0.1c1.8-1.1,3.4-0.2,4.9,0.8c1.8,1.1,3,2.7,3.3,4.8c1,5.8,2.7,11.5,3.9,17.2
+      			<path class="st233" id="dalloway" data-info="<div><b>Dalloway Terrace</b></div><div><br><b>Activity:</b> Food and drink </div><div><b>Tube Station:</b> Tottenham Court Road</div><div><b>Distance from Tube:</b> 3 minutes</div>" d="M454,216.5c0.3,0,0.5,0,0.8-0.1c1.8-1.1,3.4-0.2,4.9,0.8c1.8,1.1,3,2.7,3.3,4.8c1,5.8,2.7,11.5,3.9,17.2
       				c0.5,2.3,0.2,4.3-1.8,5.8c-0.3,0.3-0.7,0.7-1,1c-1.1,0.6-2.2,1.1-3.2,1.7c-3.5,0.8-7.1,0.8-10.6,0c-0.9-0.4-1.8-0.8-2.6-1.2
       				c-3.7-2.5-4.1-3.7-3.2-8.2c1.1-5.4,2.8-10.6,3.6-16.1c0.3-2.1,1.5-3.7,3.2-4.9c0.4-0.3,0.8-0.5,1.3-0.6c0.2-0.1,0.4-0.1,0.6-0.2
       				c0.2,0,0.4-0.1,0.6,0C453.8,216.5,453.9,216.5,454,216.5z"/>
@@ -4028,15 +4035,15 @@
       			<path class="st610" d="M456.5,212c-0.2,0.2-0.3,0.4-0.5,0.6C456.2,212.4,456.4,212.2,456.5,212z"/>
       			<path class="st611" d="M455.9,210.4c-0.1,0-0.3,0.1-0.4,0.1c0-0.2,0-0.5,0-0.7C455.7,210.1,455.8,210.3,455.9,210.4z"/>
       			<path class="st579" d="M453.6,216.9c0.2-0.1,0.3-0.2,0.5-0.3C453.9,216.6,453.7,216.7,453.6,216.9z"/>
-      			<path class="st1" d="M459.4,250.7c0,1.6,0,3.1,0,4.7c-2.6,0-5.2,0-7.8,0c0-1.6,0-3,0-4.7C454.1,250.7,456.7,250.7,459.4,250.7z"
-      				/>
+      			<path class="st1" d="M459.4,250.7c0,1.6,0,3.1,0,4.7c-2.6,0-5.2,0-7.8,0c0-1.6,0-3,0-4.7C454.1,250.7,456.7,250.7,459.4,250.7z"/>
       		</g>
       	</g>
       </g>
     </svg>
   </xml>
-    </div>
+</section>
   </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
