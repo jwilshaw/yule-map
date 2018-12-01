@@ -11,9 +11,9 @@ h2 {
   font-weight: 500;
   padding-top: 3px;
 }
-/*body {
-  padding-top: 90px;
-}*/
+body {
+  padding-top: 100px;
+}
 .body-turn {
   color:rgba(250, 250, 250, 1);
   font-family: "Futura", sans-serif;
@@ -246,6 +246,18 @@ path {
 }
 #southbank:hover {
   fill: rgba(128,50,0,0.2);
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
 }
 @media only screen and (max-width: 500px) {
     .mobile {
