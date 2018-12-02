@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yule Map</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/yulemap.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand js-scroll-trigger" href="home_page.html">
+        <img src="yulemap_small_logo.png" height=87px width=150px alt="YuleMap">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-linkmain" href="about.html">About YuleMap</a></li>
+        <li><a class="nav-link" href="food_drink.html">Food and Drink</a></li>
+        <li><a class="nav-link" href="ice_rinks.html">Ice Rinks</a></li>
+        <li><a class="nav-link" href="winter_markets.html">Markets</a></li>
+        <li><a class="nav-link" href="shopping.html">Shopping</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">?>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="image-coppaclub"> </div>
+      </div>
+      <div class="col-sm-8">
+        <h2>Coppa Club Igloos</h2>
+        <p class="description"><br>For Christmas, the terrace at Coppa Club is transformed into a winter dining experience. Instead of booking a table, you can hire an igloo and dine whilst enjoying unrivalled views of London's Thameside skyline. As well as winter dining classics, for 2018 Coppa Club have collaborated with Sipsmith gins to bring you a festive cocktail menu.</p>
+        <p class="details"><br><b>Address:</b> 3 Three Quays Walk, EC3R 6AH &#160;&#160;&#160; <b>Website: </b><a href="https://www.coppaclub.co.uk/towerbridge/" target="_blank">coppaclub.co.uk</a></p>
+        <p class="station"><a href="https://tfl.gov.uk/tube/route/circle" target="_blank" type="button" class="btn btn-warning"><b>Circle Line</b></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="target-dalloway">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="image-dallowayterrace"> </div>
+      </div>
+      <div class="col-sm-8">
+        <h2>Dalloway Terrace</h2>
+        <p class="description"><br>Dalloway Terrace is an outdoor, terraced restaurant in the heart of Bloomsbury. The terrace has been transformed into a winter hideaway. With the decor arranged by master florist Nikki Tibbles, Dalloway Terrace is a unique place to grab brunch or have afternoon tea over the festive period.</p>
+        <p class="details"><br><b>Address:</b> Great Russell Street, WC1B 3NN &#160;&#160;&#160; <b>Website: </b><a href="https://dallowayterrace.com/" target="_blank">dallowayterrace.com</a></p>
+        <p class="station"><a href="https://tfl.gov.uk/tube/route/central" target="_blank" type="button" class="btn btn-danger"><b>Central Line</b></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="image-sliders"> </div>
+      </div>
+      <div class="col-sm-8">
+        <h2>Roof East</h2>
+        <p class="description" id="target-sliders"><br>The Roof East popup venue is back with an 80's throwback alpine sports theme. You'll be able to try your hand at curling at Sliders; the 6 lane, rooftop curling experience. Lane side hosts can serve you cocktails or mulled wine from the neon-hit Ski Lodge Bar keep the competitive spirit going.</p>
+        <p class="details"><b>Address:</b> Great Eastern Way, E15 1BB &#160;&#160;&#160; <b>Website: </b><a href="http://www.roofeast.com/" target="_blank">roofeast.com</a></p>
+        <p class="station"><a href="https://tfl.gov.uk/tube/route/central" target="_blank" type="button" class="btn btn-danger"><b>Central Line</b></a></p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
