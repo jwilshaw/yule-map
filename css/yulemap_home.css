@@ -177,12 +177,11 @@ ul {
   border-color: rgba(89, 171, 227, 1);
   color: white;
 }
-nav {
-  background-color: rgba(224, 224, 224, 0.9);
+.navbar {
+  background-color:#b2d3e6;
   border-radius: 0px;
   border-color: white;
-  height: 90px;
-  top: 0;﻿
+  min-height: 100px;
 }
 .sticky {
   position: fixed;
