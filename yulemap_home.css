@@ -10,27 +10,13 @@ h2 {
   font-weight: 500;
   padding-top: 3px;
 }
+.main {
+  padding-top: 90px;
+}
 .panel-footer {
   background-color: white;
   border-color: white;
-  position: fixed-bottom;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #f5f5f5;
 }
-.panel-footerabout {
-  background-color: white;
-  border-color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #f5f5f5;
-}
-/*body {
-padding-top: 90px;
-}*/
 .body-turn {
   color:rgba(250, 250, 250, 1);
   font-family: "Futura", sans-serif;
@@ -117,14 +103,6 @@ padding-top: 90px;
   height: 350px;
   border-radius: 3px;
 }
-.image-cfg {
-  background-image: url("../codefirst.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100px;
-  border-radius: 3px;
-}
 .station {
   color:rgba(120, 120, 120, 1);
   font-family: "Helvetica Neue", sans-serif;
@@ -146,15 +124,6 @@ padding-top: 90px;
   font-weight: 400;
   margin: 5;
   text-align: justify;
-}
-.about {
-  padding: 0px 30px;
-  color:rgba(50, 50, 50, 0.8);
-  font-family: "Helvetica", sans-serif;
-  font-size: 18px;
-  font-weight: 10;
-  margin: 20px auto;
-  text-align: left;
 }
 .details {
   color:rgba(120, 120, 120, 1);
@@ -211,11 +180,17 @@ ul {
   border-color: rgba(89, 171, 227, 1);
   color: white;
 }
-.navbar {
+nav {
   background-color: rgba(224, 224, 224, 0.9);
   border-radius: 0px;
   border-color: white;
-  min-height: 90px;
+  height: 90px;
+  top: 0;﻿
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav-link {
   color: black;
@@ -223,15 +198,8 @@ ul {
   font-family: "futura", sans-serif;
   margin-left: 3px;
   margin-right: 3px;
-  margin-top: 40px;
-}
-.nav-linkmain {
-  color: black;
-  font-size: 17px;
-  font-family: "futura", sans-serif;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 40px;
+  margin-top: 38px;
+  background-color: rgba(224, 224, 224, 0.9);
 }
 .navbar-toggle {
   background-color: white;
@@ -243,8 +211,40 @@ ul {
   background-color: black;
   margin-left: 3px;
 }
+h3 {
+  padding: 0px 30px;
+  color:rgba(50, 50, 50, 1);
+  font-family: "Futura", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 5;
+  text-align: left;
+}
+.intro {
+  padding: 0px 30px;
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+  font-size: 17px;
+  font-weight: 10;
+  margin: 5;
+  padding-top: 2px;
+  text-align: justify;
+}
 path {
   transition: .6s fill;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: rgba(1, 1, 1, 0.9);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: arial;
 }
 #somerset:hover {
   fill: rgba(255,255,0,0.2);
@@ -278,19 +278,6 @@ path {
 }
 #southbank:hover {
   fill: rgba(128,50,0,0.2);
-}
-.socialbutton {
-  transition: transform .2s;
-  width: 45px;
-  height: 45px;
-  margin-right: 7px;
-  margin-top: 7px;
-}
-.socialbutton:hover {
-  transform: scale(1.25);
-}
-.social:hover {
-  text-decoration: none !important;
 }
 @media only screen and (max-width: 500px) {
   .mobile {
