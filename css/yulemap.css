@@ -14,8 +14,7 @@ h2 {
 padding-top: 90px;
 }*/
 .body-turn {
-  colour: rgba(250, 250, 250, 1);
-  image: "snowflakes_background.png"
+  background-color: rgba(250, 200, 250, 1);
   font-family: "Futura", sans-serif;
   font-size: 28px;
   font-weight: 500;
